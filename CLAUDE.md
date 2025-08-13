@@ -10,7 +10,7 @@ This is a Scala 3 project named "scala3_optimiser" using sbt as the build tool. 
 
 All sbt commands should be run with the `--client` flag for better performance:
 
-- **Compile**: `sbt --client compile`
+- **Compile**: `sbt --client ctc` (shows compilation warnings)
 - **Run tests**: `sbt --client test`
 - **Run a specific test**: `sbt --client "testOnly *TestClassName"`
 - **Run a specific test method**: `sbt --client "testOnly *TestClassName -- -z \"test name\"`
@@ -161,6 +161,8 @@ When you write your tests, group them by method or function:
 ## Git Rules
 
 Always `git add` all the files you add to the project immediately after creating them.
+
+Never commit for for the user. The user will do the commits.
 
 ## Conversation Export Rules
 
