@@ -1,4 +1,4 @@
 <plugin>
-    <name>primitive-option</name>
-    <classname>com.guizmaii.scala.optimiser.plugin.PrimitiveOptionPlugin</classname>
+    <name>option-optimizer</name>
+    <classname>com.guizmaii.scala.optimiser.plugin.OptionOptimizerPlugin</classname>
 </plugin>
